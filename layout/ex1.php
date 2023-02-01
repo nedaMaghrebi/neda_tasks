@@ -18,7 +18,7 @@ $titel1="PHP is interesting";
 echo " <h1>" . $title1. " <h1>";
 ?>
 
-<h3> 3.5 Table & Variables</h3>
+<h3> 3.5 Table & Variables dd</h3>
 <?php 
 $g1=5;
 $g2=4;
