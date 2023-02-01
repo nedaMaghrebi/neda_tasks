@@ -14,7 +14,7 @@ echo "Hello World! My name is \"neda maghrabi\" ";
 
 <h3> 3.4 Variable in Php</h3>
 <?php 
-$titel1="PHP is interesting";
+$title1="PHP is interesting";
 echo " <h1>" . $title1. " <h1>";
 ?>
 
