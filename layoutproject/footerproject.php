@@ -1,7 +1,8 @@
-</div>
-    </div>   
+
+
     
     <footer> 
+        
 
       <div class="row">
               

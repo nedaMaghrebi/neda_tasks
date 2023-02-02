@@ -2,6 +2,7 @@
 $title = "Activities:Twinkling Stars Kindergarten" ;
 include "headerproject.php"?>
 
+            
 <h2><b>Preschool days are the most important phase to help our children excel in <br> life skills, we organize regular acrivities in different categories:</b></h2>
                     </div>
                 
@@ -36,5 +37,8 @@ include "headerproject.php"?>
                       <p class="card-text" > <h4>EXCURSIONS</h4> Children go out and explore places such as museum, zoo or go for picnic in a fun way. These excurstions are packed with many interesting snacks.</p>
                     </div>
                   </div>
+                </div>
+            </div>
 
-<?php include "footerproject.php"?>
+
+            <?php include "footerproject.php"?>

@@ -1,9 +1,8 @@
 <?php include "headerproject.php"?>  
 
 
-
 <img src="images/home.png" class="card-img" alt="image">
-     <div class="card-img-overlay">
+            <div class="card-img-overlay">
           <h3 class="card-text"><b>When you <br> enter this <br> Loving School <br>Consider yourself <br> One of the special <br>
             Members of an <br> Extraordinary Family</b></h3>
     </div>

@@ -2,6 +2,8 @@
 $title = "Enroll:Twinkling Stars Kindergarten" ;
 include "headerproject.php"?>  
 
+
+
 <img class="header-image" src="https://i.pinimg.com/originals/64/07/f8/6407f8b72e8c1afa198ddd37b81baef6.jpg " alt="background image">
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
