@@ -1,14 +1,7 @@
-<?php
-$title = "Activities:Twinkling Stars Kindergarten" ;
-include "headerproject.php"?>
+<?php include "headerproject.php" ?>
 
-            
-<h2><b>Preschool days are the most important phase to help our children excel in <br> life skills, we organize regular acrivities in different categories:</b></h2>
-                    </div>
-                
-                </div>
-            
-            
+
+                   
                 <div class="row">
                     <div class="col-md-4 text-center">
             
@@ -40,5 +33,10 @@ include "headerproject.php"?>
                 </div>
             </div>
 
+     
+    </div>
+</body> 
+</html>
 
-            <?php include "footerproject.php"?>
+<?php include "footerproject.php" ?>
+ 
