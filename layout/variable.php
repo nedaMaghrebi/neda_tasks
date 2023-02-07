@@ -68,16 +68,12 @@
 <h3> 4. Write two string variables</h3>
 <?php
  
-// First String
-$a = 'Hello';
+
+$x = 'welcome';
+$y = 'to Finland!';
  
-// Second String
-$b = 'World!';
- 
-// Concatenation Of String
-$c = $a.$b;
- 
-// print Concatenate String
+// join Of String
+$c = $x.$y;
 echo " $c \n";
 echo strlen($c);
 ?>
@@ -94,6 +90,14 @@ echo "Sum: ",$x;
 <h3> 5.Detect the browser being used to view your pages  </h3>
 <?php 
 echo $_SERVER['HTTP_USER_AGENT'];
+?>
+
+
+<h3> 6.display the last modification time of a file.  </h3>
+<?php
+
+echo '<link rel="stylesheet" type="text/css" href="style.css?' . filemtime('style.css') . '" />';
+
 ?>
 
 
