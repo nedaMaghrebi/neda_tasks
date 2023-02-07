@@ -11,7 +11,6 @@
     
 <div class="row">
 
-
     <div class="col">
     <input type="text" name="fname" required placeholder="First Name" class="form-control" > </div>
     
@@ -21,11 +20,17 @@
 </div>
 
 
-Birth Date: <input type="date" name="bdate"> <br>
-Select fav Color: <input type="color" name="color"> <br>
-<input type="submit" value="Submit">
+<div class="row">
 
+   <div class="col">
+   <input type="text" name="bdate" required placeholder="Birth Date" class="form-control" > </div>
+    
+   <div class="col">
+   <input type="text" name="color" required placeholder="Select fav Color" class="form-control" > </div>
 
+   <input type="submit" value="Submit">
+
+</div>
 
 </form>
 
