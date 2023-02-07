@@ -90,12 +90,14 @@ $x=$n+$m;
 echo "Sum: ",$x;  
 ?>  
 
-<h3> 5.  add up the numbers</h3>
+
+<h3> 5.Detect the browser being used to view your pages  </h3>
 <?php 
 echo $_SERVER['HTTP_USER_AGENT'];
-$browser = get_browser();
-print_r($browser);
 ?>
+
+
+
 </form>
 
 
