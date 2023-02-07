@@ -79,8 +79,23 @@ $c = $a.$b;
  
 // print Concatenate String
 echo " $c \n";
+echo strlen($c);
 ?>
 
+<h3> 5.  add up the numbers</h3>
+<?php  
+$n=200;  
+$m=143;  
+$x=$n+$m;  
+echo "Sum: ",$x;  
+?>  
+
+<h3> 5.  add up the numbers</h3>
+<?php 
+echo $_SERVER['HTTP_USER_AGENT'];
+$browser = get_browser();
+print_r($browser);
+?>
 </form>
 
 
