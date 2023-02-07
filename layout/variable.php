@@ -87,18 +87,14 @@ echo "Sum: ",$x;
 ?>  
 
 
-<h3> 5.Detect the browser being used to view your pages  </h3>
+<h3> 6.Detect the browser being used to view your pages  </h3>
 <?php 
 echo $_SERVER['HTTP_USER_AGENT'];
 ?>
 
 
-<h3> 6.display the last modification time of a file.  </h3>
-<?php
-echo filemtime("webdictionary.txt");
-echo "<br>";
-echo "Content last changed: ".date("F d Y H:i:s.", filemtime("webdictionary.txt"));
-?>
+<h3> 7.display the last modification time of a file.  </h3>
+...! added in footer
 
 
 
