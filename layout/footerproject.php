@@ -17,14 +17,21 @@
             <div class="col-md-4 text-center">
                 <p>info@twinklingstars.com<br>Phone:415-218-4791</p>
             </div>
-            <?php
 
-$fileName = 'variable.php';
-  if (file_exists($fileName)) 
-  {
-  echo "Last modified: " . date ("F d Y H:i:s.", filemtime($fileName));
-  }
-?>
+
+            
+            <div class="footer-copyright text-center py-3" >© 2020 Copyright <br>
+    <?php
+      $fileName = 'variable.php';
+        if (file_exists($fileName)) 
+        {
+        //echo "last modified: " . date ("F d Y H:i:s.", filemtime($fileName));
+        echo "last modified: " . date ("F d Y H:i", filemtime($fileName));
+        }
+    ?>
+  </div>
+
+
 
         </div>
         

@@ -24,6 +24,7 @@
                 <li><a href="contact.php">Contact</a></li>
                 <a class="btn btn-danger" href="enroll.php" role="button">Enroll Today</a>
                 <li><a href="ex1.php">exersice1 link</a></li>
+                <li><a href="variable.php">exersice3 link</a></li>
               </ul>
                    
             </ul>
