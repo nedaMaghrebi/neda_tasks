@@ -1,19 +1,25 @@
-<?php include "headerproject.php"?>  
+<?php
+$title = "Enroll:Twinkling Stars Kindergarten" ;
+include "headerproject.php"?>  
 
 
-<img src="images/home.png" class="card-img" alt="image">
-            <div class="card-img-overlay">
-          <h3 class="card-text"><b>When you <br> enter this <br> Loving School <br>Consider yourself <br> One of the special <br>
-            Members of an <br> Extraordinary Family</b></h3>
-    </div>
-</div>
 
+<img class="header-image" src="https://i.pinimg.com/originals/64/07/f8/6407f8b72e8c1afa198ddd37b81baef6.jpg " alt="background image">
+    
     <div class="row">
         <div class="col-md-12">
-        <h2><b>We are group of teachers  who really  love children's and enjoy every moment of teaching and playing with our students.</b></h2>
-        
+        <h2><b><i>ADMISSION OPEN FOR 2023</i></b></h2>
+        </div>
+    </div>  
+    <div class="row">
+        <div class="col-md-12">
+        <h3><b> Download our enrollment form and email to</b></h3>
+        <h4><b> info@twinklingstars.com</b></h4>
+        <a class="btn btn-danger" role="button" href="enrollmentfoam.pdf">Enrollment form</a>
+
+
         <style>
-    body {
+        body {
     background-color:#EF92D5;
     font-family:'Courier New', Courier, monospace;
     color:#680a11;
@@ -21,36 +27,12 @@
     width: 1080px;
     margin:auto;
     display: flex;
-    justify-content: space-between;
-}
-h3{ 
-    color:#680a11;
-    font-size: 12px;
-    padding-top: 325px;
-    padding-bottom:20px ;
-    padding-left: 150px;
-}
-h4{ 
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    font-weight: bold;
- 
-}
-
-.card {
-    
-    margin-top:0%;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    font-size: 15px;
-  
-    text-align:justify;
-    
+    justify-content: space-between;
 }
 img{
     margin-right: 50px;
+    margin-left:5px;
     margin-bottom: 0px;
 }
 nav li {
@@ -66,36 +48,62 @@ nav li:last-child {
 nav ul {
     padding-left: 0;    
 }
-h1{
+/*h1{
     font-size: 20px;
     text-align: justify;
-}
+}*/
 .header-image {
     width: 100%;
-    height: auto;
+    height: 450px;
+    padding-top: 0px;
+    padding-bottom:20px ;
+    padding-left: 0px;
+    padding-right: 0PX;
 }
 h2{
     background-color:#EF92D5;
-    height: 107px;
-    padding-top: 20px;
-    padding-bottom:20px ;
+    /*height: 107px;*/
+    padding-top: 0px;
+    padding-bottom:10px ;
     padding-left: 20px;
     text-align: center;
     font-size: 22px;
-    font-size: 18px;
-    
-}
 
+}
+h3{
+    background-color:#EF92D5;
+    padding-top: 0px;
+    padding-bottom:0px ;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+h4{
+    background-color:#EF92D5;
+    padding-top: 0px;
+    padding-bottom:40px ;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 18px;
+
+}
+    
+      
+
+
+
+
+
+/*footer*/
 
 footer{
-    margin-top:0px;
+    margin-top:50px;
     background-color:#FD0DBA;
     margin-left: 9px;
     margin-bottom: 15px;
 }
 
 p{
-
     height: 50px;
     padding-top: 20px;
     padding-bottom:20px ;
@@ -133,7 +141,7 @@ p{
     
     }
 }
-</style>
 
+</style>
 
 <?php include "footerproject.php"?>

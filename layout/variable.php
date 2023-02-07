@@ -94,7 +94,7 @@ echo $_SERVER['HTTP_USER_AGENT'];
 
 
 <h3> 7.display the last modification time of a file.  </h3>
-...! added in footer
+<!-- added in footerproject.php-->
 
 
 
