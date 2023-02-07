@@ -16,7 +16,8 @@
     <input type="text" name="fname" required placeholder="First Name"> </div>
     
     <div class="col">
-    <input type="text" name="fname" required placeholder="Last Name"></div>
+    <input type="text" name="lname" required placeholder="Last Name"></div>
+
 </div>
 
 
