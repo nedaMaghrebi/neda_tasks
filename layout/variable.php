@@ -13,10 +13,10 @@
 
 
     <div class="col">
-    <input type="text" name="fname" required placeholder="First Name"> </div>
+    <input type="text" name="fname" required placeholder="First Name" class="form-control" > </div>
     
     <div class="col">
-    <input type="text" name="lname" required placeholder="Last Name"></div>
+    <input type="text" name="lname" required placeholder="Last Name" class="form-control"></div>
 
 </div>
 
