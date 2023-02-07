@@ -80,9 +80,10 @@ echo strlen($c);
 
 <h3> 5.  add up the numbers</h3>
 <?php  
-$n=200;  
-$m=143;  
-$x=$n+$m;  
+$n= 298;  
+$m=234;  
+$y=46; 
+$x=$y+$n+$m;  
 echo "Sum: ",$x;  
 ?>  
 
