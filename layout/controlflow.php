@@ -80,11 +80,30 @@ if($color =="red"){
    <input type="submit" value="Submit">
 </div>
 
-<?php
-
-    ?>
 
 </form>
+
+
+<h3>5.Use Switch statement with strops function to print the name of the browser</h3>
+
+<?php
+$userA = $_SERVER['HTTP_USER_AGENT'];
+
+    switch ($userA) 
+    {
+    case strpos($userA, "Edg") == true;
+        echo "<br> You are using Microsoft Edge";
+    break;
+
+    case strpos($userA, "Chrome") == true;
+        echo "<br> You are using Goolge Chrome";
+    break;
+    
+    case strpos($userA, "Firefox") == true;
+        echo "<br> You are using Mozila Firefox";
+    break;
+    }
+?>
 
 <style>
     body {
