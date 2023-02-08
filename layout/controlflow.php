@@ -34,7 +34,7 @@ if($color =="red"){
 
 <?php
 
-    $score = "100";
+    $score = "58";
 
     if ($score>=80)
     {
@@ -58,6 +58,30 @@ if($color =="red"){
     }  
 ?>
 
+
+<h3>4.Write a program to get inputs (age and name) from the user</h3>
+
+<form action="inputs.php" method="post">
+    
+<div class="row">
+
+    <div class="col">
+    <input type="text" name="fname" required placeholder="First Name" class="form-control" > </div>
+    
+    <div class="col">
+    <input type="text" name="lname" required placeholder="Last Name" class="form-control"></div>
+
+
+    <div class="col">
+    <input type="number" name="age" required placeholder="Age" class="form-control"></div>
+
+</div>
+
+<?php
+
+    ?>
+
+</form>
 
 
  <?php include "footer.php" ?>
