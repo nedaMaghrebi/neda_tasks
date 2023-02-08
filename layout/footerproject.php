@@ -21,20 +21,12 @@
 
             
             <div class="footer-copyright text-center py-3" >© 2020 Copyright <br>
-    <?php
-
-    //fnam=basename($_SERVER)
-      $fileName = 'variable.php';
-        if (file_exists($fileName)) 
-        {
-        //echo "last modified: " . date ("F d Y H:i:s.", filemtime($fileName));
-        echo "last modified: " . date ("F d Y H:i", filemtime($fileName));
-
-        }
-    ?>
+            <?php
+    $fname = basename($_SERVER['PHP_SELF']);
+    $last_modified = filemtime($fname);
+    echo "last modified: " . date ('l jS \o\f F Y, h:i:s A', $last_modified);
+?>
   </div>
-
-
 
         </div>
         
