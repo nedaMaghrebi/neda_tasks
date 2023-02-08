@@ -16,7 +16,27 @@ if($month =="Aug"){
     echo 'it is ' . $month . ' so no holydays';
 }
 ?>
-// <?php include "footer.php" ?>
+
+<h3>2.Assign colour red to a variable name $color</h3>
+
+<?php
+$color ="red";
+if($color =="red"){
+    echo 'The color is red ';
+}else{
+    echo 'The color is not red.
+    ';
+}
+?>
+
+
+<h3>2.Assign colour red to a variable name $color</h3>
+
+
+
+
+
+ <?php include "footer.php" ?>
 
 
 
