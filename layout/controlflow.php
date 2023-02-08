@@ -30,9 +30,33 @@ if($color =="red"){
 ?>
 
 
-<h3>2.Assign colour red to a variable name $color</h3>
+<h3>3.Write a program to grade students based on their total score</h3>
 
+<?php
 
+    $score = "100";
+
+    if ($score>=80)
+    {
+    echo "Exelent.";
+    }
+    elseif ($score>=70 && $score<80)
+    {
+        echo "Good.";
+    } 
+    elseif ($score>=60 && $score<70)
+    {
+        echo "Good.";
+    } 
+    elseif ($score>=50 && $score<60)
+    {
+        echo "Pass.";
+    } 
+    elseif ($score<50)
+    {
+        echo "Fail.";
+    }  
+?>
 
 
 
