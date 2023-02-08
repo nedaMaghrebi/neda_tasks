@@ -28,13 +28,16 @@
           <a class="nav-link" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Exercise1</a>
+          <a class="nav-link" href="ex1.php">Exercise 1</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="aboutus.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="variable.php">Exercise3</a>
+          <a class="nav-link" href="variable.php">Exercise 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="variable.php">Exercise 4</a>
         </li>
         
       </ul>
