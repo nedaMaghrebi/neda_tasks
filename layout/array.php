@@ -5,9 +5,10 @@
 <h3>1.  Write a php script to display courses as list.</h3>
 <?php
 $courses=array("PHP ", "HTML ", "JavaScript ", "CMS ", "Project ");
-for ($i=0; $i< count($courses);$i++){
-echo $courses["$i"];
-}
+for ($i = 0; $i < count($courses); $i++) 
+ {
+ echo "<li> $courses[$i].";
+ }
 ?>
 
 <h3>2.  The unset() function is used to remove element from the array.</h3>
@@ -17,4 +18,10 @@ unset($courses[1]);
 echo implode(',' , $courses);
 ?>
 
-<h3>2.  The unset() function is used to remove element from the array.</h3>
+<h3>3. Sort the following array .</h3>
+<?php
+$courses=array("PHP ", "HTML ", "JavaScript ", "CMS ", "Project ");
+sort($courses);
+echo ""
+
+?>
