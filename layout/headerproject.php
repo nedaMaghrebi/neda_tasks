@@ -23,9 +23,10 @@
                 <li><a href="activities.php">Activities</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <a class="btn btn-danger" href="enroll.php" role="button">Enroll Today</a>
-                <li><a href="ex1.php">exersice 1 link</a></li>
-                <li><a href="variable.php">exersice 3 link</a></li>
-                <li><a href="controlflow.php">exersice 4 link</a></li>
+                <li><a href="ex1.php">exersice 1 </a></li>
+                <li><a href="variable.php">exersice 3 </a></li>
+                <li><a href="controlflow.php">exersice 4 </a></li>
+                <li><a href="array.php">exersice 5 </a></li>
               </ul>
                    
             </ul>
