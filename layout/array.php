@@ -21,7 +21,7 @@ echo implode(',' , $courses1);
 <h3>3. Sort the following array .</h3>
 <?php
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
-sort($courses3);
+asort($courses3);
 echo "Ascending order by value:". implode(',' , $courses3)."<br>";
 ksort($courses3);
 echo "Ascending order  by Key:". implode(',' , $courses3)."<br>";
@@ -43,6 +43,12 @@ echo implode(',' ,$courses4);
 <h3>5. List all your favorite colors and their hexadecimal equivalents. (associative arrays).</h3>
 <?php 
 
+$mycolors = array( "red" => "#ff0000","purple" => "#800080","white" => "#ffffff", "gray" => "#808080");
 
+$favcov = array_keys($mycolors);
 
+for ($i = 0; $i < count($favcov); $i++) {
+    echo $favcov[$i] . "/" . $mycolors[$favcov[$i]] . "<br>";
+  
+}
 ?>
