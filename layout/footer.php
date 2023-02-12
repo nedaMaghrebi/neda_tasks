@@ -5,6 +5,14 @@
 
   <!--  Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright
+
+
+  <?php
+    $fname = basename($_SERVER['PHP_SELF']);
+    $last_modified = filemtime($fname);
+    echo "last modified: " . date ('l jS \o\f F Y, h:i:s A', $last_modified);
+?>
+
   </div>
   <!-- Copyright -->
 
