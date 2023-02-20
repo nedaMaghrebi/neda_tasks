@@ -31,8 +31,11 @@ echo " <h1>" . $title1. " <h1>";
 
 <script>
 //window.alert
-window.alert("This will trigger an alert box");
-window.alert(5+10 );
+
+//window.alert("This will trigger an alert box");
+//window.alert(5+10 );
+//document.write
+document.write("Hello this is intersting");
 </script>
 
 <h3> 3.5 Table & Variables dd</h3>
