@@ -10,7 +10,7 @@ echo "Hello World! My name is \"neda maghrabi\" ";
 
 ?>
 <h3> Current Date</h3>
-<?php echo date("m . d . y") ?> <br>
+<?php echo date("m . d . y") ?> 
 
 
 <script>
