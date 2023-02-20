@@ -10,7 +10,12 @@ echo "Hello World! My name is \"neda maghrabi\" ";
 
 ?>
 <h3> Current Date</h3>
-<?php echo date("m . d . y") ?>
+<?php echo date("m . d . y") ?> <br>
+
+
+<script>
+document.write("Hello world this is JavaSript");
+</script>
 
 <h3> 3.4 Variable in Php</h3>
 <?php 
