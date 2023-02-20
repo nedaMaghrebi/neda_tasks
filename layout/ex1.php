@@ -21,11 +21,19 @@ document.write("Hello world this is JavaSript");
 Please enable JavaScript to view this content,
 </noscript>
 
+<input type="button" onclick="hello()" value="Click Me">
+
 <h3> 3.4 Variable in Php</h3>
 <?php 
 $title1="PHP is interesting";
 echo " <h1>" . $title1. " <h1>";
 ?>
+
+<script>
+//window.alert
+window.alert("This will trigger an alert box");
+window.alert(5+10 );
+</script>
 
 <h3> 3.5 Table & Variables dd</h3>
 <?php 
