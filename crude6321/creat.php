@@ -25,10 +25,14 @@ if(isset($_POST['submit'])){
     $sql="insert into studentinfo(fname,lname,city,groupid)
     values('$fname','$lname','$city', '$groupid')";
     if($conn->query($sql)===TRUE){
+                
         echo"Your information is added successfully";
+
     }
     else{
-        echo"Erro: .$conn->error";
+
+        echo"Error:" .$conn->error;
+
     }
 }
 ?>

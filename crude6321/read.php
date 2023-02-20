@@ -11,7 +11,7 @@ $result = $conn->query($sql);
 if($result->num_rows > 0){
     echo" <table class = 'table'>
         <tr>
-        <th>    Id         </th> 
+        <th>    ID        </th> 
         <th>    First Name </th> 
         <th>    Last Name  </th> 
         <th>    City       </th> 
@@ -41,7 +41,7 @@ $conn-> close();
 ?>
 
 
-<?php ?>
+
 
 <?php include "../layout/footer.php" ?>
         
