@@ -39,6 +39,19 @@ document.write("Hello this is intersting");
 </script>
 
 <h3> 3.5 Table & Variables dd</h3>
+
+
+<button onclick ="add()"> Click to Add </button>
+<hr>
+<p id="place1" style="color:red; background-color:yellow;"> </p>
+<span id="place2" style="color:red; background-color:green;"> </span>
+<script>
+document.getElementById("place1").innerHTML="This will go to place1";
+document.getElementById("place2").innerHTML="This will go to span";
+</script>
+
+
+
 <?php 
 $g1=5;
 $g2=4;
@@ -63,6 +76,14 @@ echo "
 
 <h3> 4 Screenshot </h3>
 <img src="images/1.jpg" alt="first shot">
+
+
+
+<h2>Changing background-color</h2>
+<form>
+<input type="color" name="background"
+ onchange="changeColor('background', this.value)">
+</form>
 
 
 <style>
