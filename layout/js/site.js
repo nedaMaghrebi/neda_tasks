@@ -15,10 +15,14 @@ function add(){
 // console.log
 
 //function to change the bacj=kground color of the page
-function changeColor (where, newColor){
-    if (where == "background"){
-        document.body.style.backgroundColor=newColor;
-    }
 
+function changeColor(){
+    let color = document.getElementById("background").value;
+    document.body.style.backgroundColor=color;
+}
 
+//function to change font color of the page
+function changeFcolor(){
+    let fcolor = document.getElementById('fcolor').value;
+    document.body.style.color=fcolor;
 }
