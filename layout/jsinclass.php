@@ -26,15 +26,12 @@ include "header.php"
 <h2> On Mouse Over and Mouse Out </h2>
 <span onmouseover="this.style.color='blue';
                  this.style.backgroundColor='yellow';
-                 this.style.fontSize='2em'; "
+                 this.style.fontSize='2em'; ";
       onmouseout="
                  this.style.color='red';
                  this.style.backgroundColor='white';
-                 this.style.fontSize='1.1em'; "
-                 
-                
-                
-                > Some text  </span>
+                 this.style.fontSize='1.1em';"; > 
+                 Some text  </span>
 
 
 <?php include "footer.php"?>

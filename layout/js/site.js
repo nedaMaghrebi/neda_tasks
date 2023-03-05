@@ -14,7 +14,7 @@ function add(){
 // innerHTML
 // console.log
 
-//function to change the bacj=kground color of the page
+//function to change the background color of the page
 
 function changeColor(){
     let color = document.getElementById("background").value;
@@ -25,4 +25,30 @@ function changeColor(){
 function changeFcolor(){
     let fcolor = document.getElementById('fcolor').value;
     document.body.style.color=fcolor;
+}
+
+//crud
+function crud(){
+    let fname=(document.form1.fname.value).trim();
+        if (fname.length<5){
+            alert("First Name must have at least 5 character");
+            return false;
+        }
+}
+
+function crud(){
+    let lname=(document.form1.lname.value).trim();
+        if (lname.length>15){
+            alert("Last Name must less than 15 character");
+            return false;
+        }
+}
+
+
+function fnameVal(){
+    let fname=(document.form1.fname.value).trim();
+    if (fname.length<5){
+        alert("First Name must have at least 5 character");
+        return false;
+    }
 }

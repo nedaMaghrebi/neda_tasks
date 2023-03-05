@@ -48,10 +48,7 @@ $row = mysqli_fetch_array($result)
             }
     }
     if (isset($_POST['delete'])){
-        $fname = $_POST['fname'];
-        $lname = $_POST['lname'];
-        $city = $_POST['city'];
-        $groupid = $_POST['groupid'];
+       
 
         $query = mysqli_query($conn, "delete from studentinfo where id = '$a'");
 
